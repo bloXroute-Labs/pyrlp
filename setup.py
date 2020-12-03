@@ -36,7 +36,7 @@ test_requirements = [
 version = '0.6.0'
 
 setup(
-    name='rlp',
+    name='blxr_rlp',
     version=version,
     description="A package for encoding and decoding data in and from Recursive Length Prefix notation",
     long_description=readme,
@@ -44,7 +44,7 @@ setup(
     author_email='jnnknnj@gmail.com',
     url='https://github.com/ethereum/pyrlp',
     packages=[
-        'rlp', 'rlp.sedes'
+        'blxr_rlp', 'blxr_rlp.sedes'
     ],
     include_package_data=True,
     install_requires=[],
